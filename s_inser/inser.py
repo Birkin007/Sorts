@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Цикл по всем файлам
-for i in range(914, 1720):
+for i in range(181):
     # Чтение данных из файла
     data = np.loadtxt(f'array_step_{i}.txt')
 
